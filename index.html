@@ -102,10 +102,27 @@ to{opacity:1;transform:translateY(0)}
 }
   </style>
  </head>
- <body>
-  <div class="logo-container">
-    <img src="infomerica_logo.jpg" alt="Infomerica Logo" class="logo-right">
-  </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infomerica Logo</title>
+  <style>
+      .logo-container {
+          display: flex; /* Aligns child elements in a row */
+          justify-content: flex-end; /* Aligns the logo to the right */
+          padding: 10px; /* Adds space around the logo */
+          background-color: #f8f9fa; /* Light gray background */
+      }
+
+      .logo-right {
+          /* The logo's dimensions are set directly in the img tag */
+      }
+  </style>
+</head>
+<body>
+<div class="logo-container">
+  <img src="https://infomericainc.com/Content/images/logo.png" alt="Infomerica Logo" class="logo-right" width="150" height="50">
+</div>
+</body>
   
   <div class="main-content">
    <div class="search-container">
